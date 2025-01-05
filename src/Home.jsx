@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Header from './Header';
-import EventsSection from './Events';
+import ClubsSection from './Clubs';
 import ImageCarousel from './Carousel'
 import TeamSection from './teamSection';
 import { DeanMessage, DeanMessage2, DeanMessage3 } from './DeanMessage'
@@ -33,7 +33,7 @@ const HomePage = () => {
 
         <TeamSection />
         <div id="clubs">
-          <EventsSection />
+          <ClubsSection />
         </div>
         <div id="contact"></div>
       </main>
