@@ -10,11 +10,11 @@ const ClubCard = ({ name, description }) => (
 const ClubsSection = () => {
   const clubs = [
     {
-      name: "The Aspirant's Hub",
+      name: "Civil Services Club",
       description: "This club is dedicated to students preparing for various administrative services and competitive exams, such as UPSC, SSC, and other government and public sector examinations. It will offer mentorship, peer study groups, and access to relevant resources to support you on your journey."
     },
     {
-      name: "Global Scholars Network",
+      name: "Higher Studies Club",
       description: "This club focuses on higher education opportunities, exchange programs, and collaborative research initiatives. Whether you're considering postgraduate studies abroad, pursuing a Ph.D. internationally, exploring scholarships, or seeking student exchange programs, this platform will be the perfect fit for you."
     }
   ];
@@ -29,7 +29,7 @@ const ClubsSection = () => {
         <div className="text-center mb-12">
           <p className="text-lg text-gray-700">
             The opening of two new clubs under the PG Academic Society, open to all students across the college, marks an exciting opportunity. These clubs aim to provide targeted support and resources for students preparing for administrative services and competitive exams, as well as those interested in higher education and student exchange opportunities. 
-            <span className="font-semibold"> (We are currently recruiting the core team.)</span>
+            
           </p>
         </div>
         
