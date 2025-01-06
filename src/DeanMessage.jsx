@@ -49,7 +49,7 @@ const DeanMessage = () => (
   <Message
     imageSrc="../src/assets/4.jpg"
     altText="Dean"
-    title="Dean's Message"
+    title="Dean Student's Message"
     message={`"The PG Academic Council, an essential component of the Student
       Gymkhana, majorly takes care of the development of our postgraduate
       students. I envision this council as exceptional, transcending
