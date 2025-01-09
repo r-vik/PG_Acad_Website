@@ -50,10 +50,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#contact"
+                    href="#connect"
                     className="text-gray-400 hover:text-white transition-colors duration-200"
                   >
-                    Contact
+                    Connect
                   </a>
                 </li>
               </ul>

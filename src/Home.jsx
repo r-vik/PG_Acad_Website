@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Header from './Header';
 import ClubsSection from './Clubs';
+import FormsSection from './Forms';
 import ImageCarousel from './Carousel'
 import TeamSection from './teamSection';
+import EventsSection from './Events';
 import { DeanMessage, DeanMessage2, DeanMessage3 } from './DeanMessage'
+import { i } from 'framer-motion/client';
 const HomePage = () => {
   return (
     <div id="home" className="min-h-screen flex flex-col bg-slate-500">
@@ -30,11 +33,10 @@ const HomePage = () => {
           <DeanMessage2 />
           <DeanMessage3 />
         </div>
-
         <TeamSection />
-        <div id="clubs">
-          <ClubsSection />
-        </div>
+        <ClubsSection />
+        <EventsSection />
+        <FormsSection />
         <div id="contact"></div>
       </main>
     </div>

@@ -12,7 +12,9 @@ const Header = () => {
       { label: 'About', link: '#about' },
       { label: 'Team', link: '#team' },
       { label: 'Clubs', link: '#clubs' },
-      { label: 'Contact', link: '#contact' },
+      { label: 'Events', link: '#events' },
+      { label: 'Connect', link: '#connect' },
+      //{ label: 'Contact', link: '#contact' },
     ];
     useEffect(() => {
       const handleScroll = () => {
@@ -72,7 +74,7 @@ const Header = () => {
           } overflow-hidden transition-all duration-300 ease-in-out`}
         >
           <div className="container mx-auto px-4 py-4">
-            {['Home', 'About', 'Team', 'Contact'].map((item) => (
+            {['Home', 'About', 'Team', 'Clubs', 'Events', 'Connect'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}

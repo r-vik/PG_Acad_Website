@@ -124,7 +124,7 @@ const subCouncillors = [
 
 const TeamSection = () => {
   return (
-    <div className="bg-gray-100 p-8">
+    <div className="bg-gray-100 px-8 py-12">
       <h1 className="text-2xl font-bold text-center mb-8 ">Our Team</h1>
 
       {/* <h3 className="text-xl font-bold text-center mb-6">
@@ -171,6 +171,9 @@ const TeamSection = () => {
             imageUrl={member.imageUrl}
           />
         ))}
+        <div
+          id="clubs"
+        ></div>
       </div>
     </div>
   );
