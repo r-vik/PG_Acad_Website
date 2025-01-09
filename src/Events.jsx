@@ -29,7 +29,7 @@ const EventsSection = () => {
   };
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 px-8 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Heading */}
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
