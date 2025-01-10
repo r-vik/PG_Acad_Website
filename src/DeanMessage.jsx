@@ -1,19 +1,20 @@
-import { div } from "framer-motion/client";
 import React from "react";
 
 const Message = ({ imageSrc, altText, title, message, author }) => {
   return (
-    <div className="bg-gray-200 p-8 flex items-center border-b-4 border-gray-300 rounded-lg shadow-lg">
-      <div className="w-1/3">
+    <div className="bg-gray-200 p-4 flex flex-col lg:flex-row items-center border-b-4 border-gray-300 rounded-lg shadow-lg">
+      <div className="w-full lg:w-1/4 flex-shrink-0 mb-4 lg:mb-0">
         <img
           src={imageSrc}
           alt={altText}
-          className="w-56 h-56 rounded-full object-cover shadow-lg"
+          className="w-40 h-40 lg:w-48 lg:h-48 xl:w-56 xl:h-56 rounded-full object-cover shadow-lg mx-auto"
         />
       </div>
-      <div className="w-[calc(66.6667%+200px)] ml-[-200px] bg-white p-4 pl-8 rounded-lg shadow-md border border-gray-300">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">{title}</h2>
-        <p className="text-lg text-gray-700">{message}</p>
+      <div className="w-full lg:w-3/4 bg-white p-4 lg:p-6 xl:p-8 rounded-lg shadow-md border border-gray-300 lg:ml-4">
+        <h2 className="text-xl lg:text-2xl font-bold mb-4 text-gray-800">
+          {title}
+        </h2>
+        <p className="text-base lg:text-lg text-gray-700">{message}</p>
         <p className="mt-4 text-sm text-gray-500">- {author}</p>
         <div className="w-full h-1 mt-4 bg-gradient-to-r from-gray-400 via-gray-200 to-gray-400"></div>
       </div>
@@ -23,24 +24,25 @@ const Message = ({ imageSrc, altText, title, message, author }) => {
 
 const Messagee = ({ imageSrc, altText, title, message, author }) => {
   return (
-    <div className="bg-gray-200 p-8 flex items-center border-b-4 border-gray-300 rounded-lg shadow-lg">
-      <div className="w-1/3">
+    <div className="bg-gray-200 p-8 flex flex-col lg:flex-row items-center border-b-4 border-gray-300 rounded-lg shadow-lg">
+      <div className="w-full lg:w-1/4 flex-shrink-0 mb-4 lg:mb-0">
         <img
           src={imageSrc}
           alt={altText}
-          className="w-56 h-56 rounded-full object-cover shadow-lg"
+          className="w-40 h-40 lg:w-48 lg:h-48 xl:w-56 xl:h-56 rounded-full object-cover shadow-lg mx-auto"
         />
       </div>
-      <div className="w-[calc(66.6667%+200px)] ml-[-200px] bg-white p-4 pl-8 rounded-lg shadow-md border border-gray-300">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">{title}</h2>
-        <p className="text-lg text-gray-700">{message}</p>
+      <div className="w-full lg:w-3/4 bg-white p-4 lg:p-6 xl:p-8 rounded-lg shadow-md border border-gray-300 lg:ml-4">
+        <h2 className="text-xl lg:text-2xl font-bold mb-4 text-gray-800">
+          {title}
+        </h2>
+        <p className="text-base lg:text-lg text-gray-700">{message}</p>
         <p className="mt-4 text-sm text-gray-500">- {author}</p>
         <div
           id="team"
           className="w-full h-1 mt-4 bg-gradient-to-r from-gray-400 via-gray-200 to-gray-400"
         ></div>
       </div>
-      <div></div>
     </div>
   );
 };
