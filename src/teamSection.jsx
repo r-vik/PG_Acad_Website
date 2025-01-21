@@ -45,19 +45,19 @@ const teamMembers = [
     name: "Anugraha K Kurian",
     role2: "MA - Dev. Studies",
     role: "PG Academic Secretary",
-    imageUrl: "../src/assets/1.jpg",
+    imageUrl: "/1.jpg",
   },
   {
     name: "Pratyush Kishan",
     role2: "MBA - DSAI",
     role: "Social Media and Website (Head)",
-    imageUrl: "../src/assets/2.png",
+    imageUrl: "/2.png",
   },
   {
     name: "Tanya Gupta",
     role2: "MA - Dev. Studies",
     role: "Social Media and Website (Co-Head)",
-    imageUrl: "../src/assets/3.png",
+    imageUrl: "/3.png",
   },
 ];
 
@@ -65,32 +65,32 @@ const councillors = [
   {
     name: "Vidit",
     role: "MBA-DSAI",
-    imageUrl: "../src/assets/6.png",
+    imageUrl: "/6.png",
   },
   {
     name: "Surendra Kumar",
     role: "MSc - App. Maths",
-    imageUrl: "../src/assets/7.png",
+    imageUrl: "/7.png",
   },
   {
     name: "Riya Arya",
     role: "MTech - CSE",
-    imageUrl: "../src/assets/8.png",
+    imageUrl: "/8.png",
   },
   {
     name: "Shivam Kheral",
     role: "MSc - Chemistry",
-    imageUrl: "../src/assets/9.png",
+    imageUrl: "/9.png",
   },
   {
     name: "Abhishek Daithankar",
     role: "MA - Dev. Studies",
-    imageUrl: "../src/assets/10.png",
+    imageUrl: "/10.png",
   },
   {
     name: "Bhanu Pratap Singh",
     role: "MSc - Physics",
-    imageUrl: "../src/assets/11.jpg",
+    imageUrl: "/11.jpg",
   },
 ];
 
@@ -98,27 +98,27 @@ const subCouncillors = [
   {
     name: "Sanskar Pal",
     role: "MTech - CSE",
-    imageUrl: "../src/assets/13.png",
+    imageUrl: "/13.png",
   },
   {
     name: "Soumyadeep Khan",
     role: "MA - Dev. Studies",
-    imageUrl: "../src/assets/14.png",
+    imageUrl: "/14.png",
   },
   {
     name: "Shubh Mittal",
     role: "MTech(R) - Civil",
-    imageUrl: "../src/assets/15.png",
+    imageUrl: "/15.png",
   },
   {
     name: "Divas Gaur",
     role: "MSc - Physics",
-    imageUrl: "../src/assets/16.png",
+    imageUrl: "/16.png",
   },
   {
     name: "Vishal",
     role: "MSc - Chemistry",
-    imageUrl: "../src/assets/17.png",
+    imageUrl: "/17.png",
   },
 ];
 

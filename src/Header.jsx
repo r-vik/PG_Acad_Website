@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import Logo from '../src/assets/Logo.png'
+import Logo from '/Logo.png'
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.production';
 

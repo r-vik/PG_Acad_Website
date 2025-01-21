@@ -8,7 +8,7 @@ import {
   Mail,
   Linkedin,
 } from "lucide-react";
-import Logo from '../src/assets/Logo.png'
+
 const Footer = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto px-4 py-10">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="space-y-4">
-              <img src={Logo} alt="Academic Council Logo" className="h-12" />
+              <img src={'/Logo.png'} alt="Academic Council Logo" className="h-12" />
               <p className="text-sm text-gray-400">
                 Empowering minds, shaping futures.
               </p>

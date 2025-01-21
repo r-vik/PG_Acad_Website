@@ -49,7 +49,7 @@ const Messagee = ({ imageSrc, altText, title, message, author }) => {
 
 const DeanMessage = () => (
   <Message
-    imageSrc="../src/assets/4.jpg"
+    imageSrc="/4.jpg"
     altText="Dean"
     title="Dean Student's Message"
     message={`"The PG Academic Council, an essential component of the Student
@@ -74,7 +74,7 @@ const DeanMessage = () => (
 
 const DeanMessage2 = () => (
   <Message
-    imageSrc="../src/assets/5.jpg"
+    imageSrc="/5.jpg"
     altText="Faculty Advisor"
     title="Faculty Advisor's Message"
     message={`"The Student Academic Council plays a vital role in ensuring that
@@ -94,7 +94,7 @@ const DeanMessage2 = () => (
 const DeanMessage3 = () => (
   <>
     <Messagee
-      imageSrc="../src/assets/1_2.jpg"
+      imageSrc="/1_2.jpg"
       altText="PG Academic Secretary"
       title="PG Academic Secretary's Message"
       message={`"The PG Academic Society envisions an unparalleled academic

@@ -6,19 +6,19 @@ const ImageCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const images = [
     {
-      url: "../src/assets/iit1.jpeg",
+      url: "/iit1.jpeg",
       alt: "Academic image 3",
     },
     {
-      url: "../src/assets/iit6.png",
+      url: "/iit6.png",
       alt: "Academic image 3",
     },
     {
-      url: "../src/assets/a1.jpg",
+      url: "/a1.jpg",
       alt: "Academic image 3",
     },
     {
-      url: "../src/assets/a2.jpg",
+      url: "/a2.jpg",
       alt: "Academic image 3",
     },
   ];

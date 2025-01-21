@@ -23,8 +23,8 @@ const EventsSection = () => {
     description:
       "On November 8, 2024 (6pm - 8pm), an engaging and highly informative Academic Writing Workshop was held at IIT Mandi by PG Academic Council, providing students across undergraduate, postgraduate, and doctoral programs with essential insights into academic writing. The event, organised in Room 1B of the A-18 building, brought together a distinguished panel of speakers who covered a range of topics, from writing strategies to the publication process.",
     images: [
-      "../src/assets/Event1_1.jpg",
-      "../src/assets/Event1_2.jpg",
+      "/Event1_1.jpg",
+      "/Event1_2.jpg",
     ],
   };
 
